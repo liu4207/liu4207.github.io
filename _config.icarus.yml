@@ -3,11 +3,13 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+# logo: /img/logo.svg
+logo: /img/cqu1.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
     favicon: /img/favicon.svg
+    # favicon: /img/lsk.jpg
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -202,7 +204,7 @@ donates:
     -
         type: wechat
         # Wechat qrcode image URL
-        qrcode: ''
+        qrcode: '/img/wechatpay.png'
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
@@ -229,13 +231,13 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Steven LIU
+        author: Steven Liu
         # Author title
         author_title: 明月科创实验班人工智能专业2022级本科生
         # Author's current location
         location: 重庆大学国家卓越工程师学院
         # URL or path to the avatar image
-        avatar: 
+        avatar: /img/lsk1.jpg
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
